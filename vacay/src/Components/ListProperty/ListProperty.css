@@ -1,0 +1,67 @@
+.lst {
+    background-color: #003B95;
+}
+
+.lst-tile {
+    margin-top: 20%;
+    margin-left: 15%;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 80px;
+    color: white;
+}
+
+.p-lst {
+    margin-left: 15%;
+    margin-bottom: 20%;
+    color: #ebf3ff;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28px;
+    color: white;
+}
+
+.join {
+    background-color: white;
+    width: auto;
+    height: auto;
+    margin-bottom: 10%;
+    padding: 20px;
+}
+
+.p {
+    font-weight: 500;
+    margin: 5%;
+}
+
+.bg {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    /* margin-bottom: 30%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.host-img {
+    width: 100%;
+}
+
+.host_desc {
+    font-weight: 600;
+    /* font-size: 1.7rem; */
+}
+
+
+/* .crd {
+    margin-top: 3%;
+    margin-bottom: 5%;
+} */
+
+.h6 {
+    /* font-size: 25px; */
+    /* font-size: 1.7rem; */
+    color: black;
+}

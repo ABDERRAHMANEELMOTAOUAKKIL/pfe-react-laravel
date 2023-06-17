@@ -1,0 +1,67 @@
+.errorMessage {
+    background-color: rgb(168, 17, 17);
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #b06a6b;
+    border-radius: 4px;
+}
+
+section {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(315deg, #1B2C22, #013392), url('https://images.unsplash.com/photo-1550293750-dde2bed30d54?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.booking-form {
+    max-width: 400px;
+    margin: 0 auto;
+    /* background-image: url('C:\Users\abder\Downloads\raimond-klavins-eR969niwAoA-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #013392;
+    background-image: linear-gradient(315deg, #1B2C22, #013392); */
+    color: #fff;
+    padding: 2rem;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.error {
+    color: red;
+    margin-top: 1rem;
+}
+
+.submit-button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}

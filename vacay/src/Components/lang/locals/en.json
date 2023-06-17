@@ -1,0 +1,5 @@
+{
+    "app.title": "My Multi-Language App",
+    "app.greeting": "Hello, world!",
+    "app.description": "This is a multi-language app built with React JS."
+}

@@ -1,0 +1,59 @@
+.overlay {
+    position: fixed;
+    top: 20%;
+    left: 10%;
+    /* right: 20%; */
+    width: 70%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 9999;
+    padding: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px 20px;
+}
+
+.overlay-input {
+    height: 100%;
+    width: 100%;
+}
+
+.cncl-btn {
+    /* width: 50%; */
+    height: 50px;
+    margin-left: 2%;
+    border-radius: 20%;
+}
+
+.search-icon {
+    background-color: #003B95;
+}
+
+.img {
+    width: 450px;
+    margin: 20px;
+    border-radius: 15px 50px 30px;
+}
+
+.card-img {
+    position: relative;
+    cursor: pointer;
+}
+
+.card-desc {
+    margin-left: 20px;
+    margin-bottom: 60px;
+    cursor: pointer;
+}
+
+.icn {
+    position: absolute;
+    top: 22px;
+    right: 12px;
+    color: whitesmoke;
+}
+
+.icn:hover {
+    color: red;
+}

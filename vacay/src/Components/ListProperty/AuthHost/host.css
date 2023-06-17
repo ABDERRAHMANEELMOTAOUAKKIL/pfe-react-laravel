@@ -1,0 +1,137 @@
+.main,
+.auth-form {
+    text-align: center;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-image: linear-gradient(315deg, #1B2C22, #013392);
+}
+
+.auth-form,
+.login-form,
+.register-form {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 600px) {
+    .auth-form-container {
+        padding: 5rem;
+        border: 1px solid black;
+        border-radius: 10px;
+        margin: 0.5rem;
+    }
+}
+
+label {
+    text-align: left;
+    padding: 0.25rem 0;
+}
+
+input {
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn-login {
+    border: none;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+    margin-top: 5%;
+}
+
+.link {
+    cursor: pointer;
+    text-decoration: underline;
+    list-style: none;
+    margin-top: 10px;
+    color: white;
+}
+
+.link:hover {
+    color: blue;
+}
+
+.cards {
+    background-color: whitesmoke;
+    width: 30%;
+    height: 300px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 15px;
+}
+
+.round {
+    width: 100px;
+    height: 90px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.success-message {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #c3e6cb;
+    border-radius: 4px;
+}
+
+.containers {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.containers h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.containers label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.containers input,
+.containers select,
+.containers textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.containers textarea {
+    height: 100px;
+}
+
+.containers button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.containers button:hover {
+    background-color: #45a049;
+}
+
+.body {
+    background-image: linear-gradient(315deg, #1B2C22, #013392);
+}

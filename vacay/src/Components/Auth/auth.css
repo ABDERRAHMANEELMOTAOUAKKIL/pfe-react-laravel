@@ -1,0 +1,110 @@
+.main,
+.auth-form {
+    text-align: center;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-image: linear-gradient(315deg, #1B2C22, #013392);
+}
+
+.auth-form,
+.login-form,
+.register-form {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 600px) {
+    .auth-form-container {
+        padding: 5rem;
+        border: 1px solid black;
+        border-radius: 10px;
+        margin: 0.5rem;
+    }
+}
+
+label {
+    text-align: left;
+    padding: 0.25rem 0;
+}
+
+input {
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn-login {
+    border: none;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+    margin-top: 5%;
+}
+
+.link {
+    cursor: pointer;
+    text-decoration: underline;
+    list-style: none;
+    margin-top: 10px;
+    color: white;
+}
+
+.link:hover {
+    color: blue;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.profile-image img {
+    width: 100%;
+    height: auto;
+}
+
+.card {
+    margin-left: 20px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    box-shadow: 10px 10px 30px;
+}
+
+.bg-color {
+    background-image: linear-gradient(315deg, #1B2C22, #013392);
+}
+
+.card {
+    min-height: 100vh;
+    margin: auto;
+    width: 50%;
+    margin-top: 10%;
+}
+
+.cards {
+    background-color: whitesmoke;
+    width: 30%;
+    height: 300px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 15px;
+}
+
+.round {
+    width: 100px;
+    height: 90px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+#fileInput::placeholder {
+    opacity: 0;
+    /* Hide the placeholder text */
+}
